@@ -36,7 +36,7 @@ func main() {
 	
 	v, ok = ini.SectionGet("sss", "aa")
 	if !ok || v != "bb" {
-		fmt.Printf("sss/aa value is invalid\n")
+		fmt.Printf("sss/aa value is invalid!\n")
 		return
 	}
 	
